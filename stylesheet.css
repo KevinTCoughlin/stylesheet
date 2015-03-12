@@ -1,0 +1,262 @@
+/* This changes "# of readers" to "# of Seattleites  */
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:after {
+    content: " Seattleites"
+}
+
+.users-online:after {
+  content: " online currently"
+}
+
+
+/* /r/London's curved boxes for lists 
+
+.titlebox > form > .usertext-body > .md > ul > li {
+    display: block;
+    list-style: none;
+    padding: 5px;
+    margin-left: 0px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-bottom: 5px;
+    border-radius: 5px
+    }
+.titlebox > form > .usertext-body > .md > ul {
+    padding: 0px;
+    margin: 0px
+    }
+*/
+
+
+/* CUSTOMIZATION copied from THE /R/ANDROID SUBREDDIT - BY DEODRUS  */
+/* Announcement Sticky Note (Shows on Main Page Only) */
+body > .content > .spacer > .sitetable:before {
+    content: " Welcome to /r/Seattle! Enjoy your stay, and please read the sidebar.  ";
+    /*105 characters makes-one-line-announcement on 1280x700 monitor. Try to keep it a one-liner, if possible. */
+    background-color: #F2F2F2;
+    background-image: url(%%StickyNote%%);
+    background-repeat: no-repeat;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    padding: 10px 0px 15px 55px;
+    margin: 15px;
+    display: block;
+    width: 70%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px
+    }
+body > .content > .spacer + .spacer > .sitetable:before {
+    display: none
+    }
+/* Announcement Sticky Note (Shows on New, Controversial, and Top pages, not on main page)*/
+body > .content > .sharelink ~ .sitetable:before {
+
+    content: " WELCOME!  Please read the sidebar FAQs and rules before posting to /r/Seattle. ";
+
+/*    content: " Please read the sidebar before posting to /r/Seattle. "; */
+
+
+    background-color: #F2F2F2;
+    background-image: url(%%StickyNote%%);
+    background-repeat: no-repeat;
+    font-family: verdana, sans-serif;
+
+    font-size: 16px;
+
+/*    font-size: 14px; */
+
+    font-weight: bold;
+    color: #555555;
+    text-align: left;
+    padding: 10px 0px 15px 55px;
+    margin: 15px;
+    display: block;
+    width: 70%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px
+    }
+/* Increasing margin after header-area, necessary for comments page */
+body > .content {
+    margin-top: 15px
+    }
+
+/* Banner image settings provided by tylermenzes */
+#header-img{
+    position: absolute;
+    bottom: 0;
+}
+#header{
+    background: url(%%SeattleRedditBanner%%) repeat-x;
+    height: 150px;
+}
+#header-bottom-left .redditname a{
+}
+#header-bottom-left ul.tabmenu {
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+}
+ul.tabmenu li a{
+    color: #F4F4F2;
+    background-color: transparent;
+}
+
+/* Highlight domain tags: from r-baconreader*/
+span.domain {
+    font-size: 0
+    }
+span.domain a {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #E5EEED;
+    color: #555555;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 1px 3px;
+    text-shadow: 0 0px 0 #FFFFFF !important
+    }
+span.domain a:hover {
+    background-color: #65A687;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 0px 0 #FFFFFF !important
+    }
+
+/* Transparent sub-reddit links by player2 */
+#sr-header-area { background: none; border: none; }
+.sr-bar a { color: white; }
+#sr-more-link { background-color: #465DA0; color: white; border: solid 1px white; }
+
+
+/* Customization for RES Night Mode users */
+body.res-nightmode > .content > .sharelink ~ .sitetable::before {color:black!important;}
+
+body.res-nightmode .side .titlebox .usertext-body .md h3 {color:#ddd!important;}
+
+body.res-nightmode .entry .title .domain a {background-color:#8ad!important;color:ghostWhite!important;}
+body.res-nightmode .entry .title .domain a:hover {background-color:ghostWhite!important;color:#8ad!important;}
+
+
+/* Customizing the info bar to provide info when people submit */
+
+.infobar:after {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    content: " PLEASE READ BEFORE SUBMITTING: The FAQ section of the sidebar to the right has informative links about Moving to Seattle and Fun Things To Do In Seattle; please read them before posting on these topics.  Craigslist-style posts should be submitted to /r/SeaList.  Thank you for reading, and please enjoy your time in /r/Seattle!"
+    }
+
+/* Adding a hover to the Submit button, a la /r/dogs */
+
+.sidebox.submit div.morelink a:hover:before {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    padding: 5px 0;
+    border-top: 1px solid #333;
+    content: "Please read the FAQ and RULES before submitting to /r/Seattle - thank you!";
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: darkred;
+    color: white;
+    text-shadow: 0 -1px 1px #555;
+    font-size: 14px
+    }
+
+/* Reddit 101 box   */
+.side .md a[href*="/wiki/reddit_101"] {
+    background: #44AC23;
+    background: -webkit-linear-gradient(top,#7BB850,#69A53F);
+    background: -moz-linear-gradient(top,#7BB850,#69A53F);
+    background: -ms-linear-gradient(top,#7BB850,#69A53F);
+    background: -o-linear-gradient(top,#7BB850,#69A53F);
+    background: linear-gradient(top,#7BB850,#69A53F);
+    border: 1px solid #5E9C4E;
+    border-bottom: 1px solid #65A854;
+    color: white !important;
+    display: block;
+    clear: both;
+    font: 11px arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 6px;
+    min-width: 54px !important;
+    outline: 0;
+    padding: 0 4px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+/*  ----------------------------------------------- Downvote hover ----------------------------- */
+
+.arrow.down:hover:before {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    padding: 5px 0;
+    border-top: 1px solid #333;
+    content: "Please downvote only comments & posts that do not add to the discussion. It is not an 'I disagree' button.";
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: darkred;
+    color: white;
+    text-shadow: 0 -1px 1px #555;
+    font-size: 14px
+}
+
+
+/*  Second whack at downvote hover.
+.arrow.down:hover:before {
+    position: absolute; 
+    display: block; 
+    z-index: 1000; 
+    padding: 20px; 
+    border: 3px 
+    solid #000; 
+    background: darkred; 
+    font-size: 16px; 
+    content: "Please downvote only comments & posts that do not add to the discussion. It is not an 'I disagree' button."; 
+    text-align: center; 
+    color: white; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+}
+*/
+
+
+/*  This is the first whack at the "Don't downvote" pop-up
+.arrow.down:hover:before {
+     position: absolute;
+     display: block;
+     z-index: 1000;
+     width: 100%;
+     padding: 5px;
+     border: 3px solid #000;
+     background: darkred;
+     font-size: 16px;
+     letter-spacing: 1.5px;
+     content: "The downvote button is NOT a disagree button.  Keep /r/Seattle open-minded and welcoming by not using it like one. ";
+     text-align: center;
+     color: white;
+     font-weight:normal;
+     margin-left: 25px;
+     margin-top: 5px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     -webkit-border-radius: 4px
+    }
+*/
+
