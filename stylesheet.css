@@ -87,3 +87,23 @@ body{position:relative;background-color:#eeeeec;color:#00000a;font-weight:normal
     background: #fff; /*Tweak to match the image color*/
 }
 /*--  C.1.end Header Image ----*/
+
+/*--  C.9. Subscriber Info Switcher ----*/
+
+.titlebox span.word {
+	display: none;
+}
+
+.titlebox .subscribers .number:after {
+	content: " Seattleites"; /*This is replacement for readers*/
+	display:block;
+	font-size:.7em;
+}
+
+.titlebox .users-online .number:after {
+	content: " Seattleites online"; /*This is replacement for users online*/
+	display:block;
+	font-size:.7em;
+}
+
+/*--  C.9.end Subscriber Info Switcher ----*/
