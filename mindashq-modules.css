@@ -1,0 +1,97 @@
+/* [ C ]. Modules for specific Customization ....... */
+/*  visit http://www.reddit.com/r/mindashq/wiki/modules for ready to use add-on modules */
+
+/*--  C.1. Header Image
+	Details http://www.reddit.com/r/mindashq/wiki/modules/HeaderImages		
+	+ 	Add only when corresponding image is loaded in community settings > stylesheet 
+----*/
+
+#header,
+.res-nightmode #header {
+	min-height: 200px; /*Tweak to give a nice height for image to be seen, be conservative*/
+	background: #101213 url('%%headerImage%%') no-repeat scroll; /*Tweak as per requirements*/
+	-webkit-background-size: 100% auto;
+}
+
+	#header:after,
+	#header-bottom-left:before,
+	.bottommenu:before {
+		border-color: #0c2a4d; /*Tweak to match the image color*/
+		background-color: #091c2b; /*Tweak to match the image color*/
+		background-image: linear-gradient(#091c2b,#020c19);
+		opacity: 0.7; /*be creative with usage of shadows, opacity, background color, and even additional background images here*/
+	}
+
+#header-bottom-left {
+	/*do not change this. positions the top navigation bar*/
+	position: absolute;
+}
+
+#header ul.tabmenu li a,
+#header ul.tabmenu li a:visited,
+#header .pagename.redditname,
+#header .pagename.redditname.hover,
+.footer .flat-vert.title,
+#header-img.default-header {
+    background: transparent; /*Tweak to match the image color, or keep transparent*/
+    background-image: none;
+    color: #acd9fc; /*Tweak against background color*/
+}
+
+#header ul.tabmenu li.selected a {
+    background: #fff; /*Tweak to match the background image color*/
+    background-image: none;
+    color: #ff4500; /*Tweak against background color*/
+}
+
+.res-nightmode #header ul.tabmenu li.selected a {
+    background: #040406;
+    color: #e06935;
+}
+
+#header ul.tabmenu li a:hover {
+    color: #ff4500;
+}
+
+#header-bottom-right a,
+#header-bottom-right span {
+    color: #def0fe;
+}
+
+#header-bottom-right {
+    background: #091c2b;
+}
+
+#header-bottom-right:hover {
+    background: #285281;
+}
+
+#header-bottom-right:hover a,
+#header-bottom-right:hover span {
+    text-shadow: none;
+}
+
+#sr-header-area {
+    background: #fff; /*Tweak to match the image color*/
+}
+/*--  C.1.end Header Image ----*/
+
+/*--  C.9. Subscriber Info Switcher ----*/
+
+.titlebox span.word {
+	display: none;
+}
+
+.titlebox .subscribers .number:after {
+	content: " Seattleites"; /*This is replacement for readers*/
+	display:block;
+	font-size:.7em;
+}
+
+.titlebox .users-online .number:after {
+	content: " Seattleites online"; /*This is replacement for users online*/
+	display:block;
+	font-size:.7em;
+}
+
+/*--  C.9.end Subscriber Info Switcher ----*/
