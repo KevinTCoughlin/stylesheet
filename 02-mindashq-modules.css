@@ -109,23 +109,20 @@
 }
 /*--  C.5.end Sidebar Collapsible Boxes ----*/
 
-
 /*--  C.9. Subscriber Info Switcher ----*/
-
 .titlebox span.word {
-	display: none;
+    display: none;
 }
 
 .titlebox .subscribers .number:after {
-	content: " Seattleites"; /*This is replacement for readers*/
-	display:block;
-	font-size:.7em;
+    content: " Watchers"; /*This is replacement for readers*/
+    display:block;
+    font-size:.7em;
 }
 
 .titlebox .users-online .number:after {
-	content: " Seattleites online"; /*This is replacement for users online*/
-	display:block;
-	font-size:.7em;
+    content: " Themers here now"; /*This is replacement for users online*/
+    display:block;
+    font-size:.7em;
 }
-
 /*--  C.9.end Subscriber Info Switcher ----*/

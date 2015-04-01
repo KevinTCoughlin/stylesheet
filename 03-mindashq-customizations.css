@@ -3,3 +3,11 @@
     background: #101213 url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
     background-size: 100% auto !important;
 }
+
+.titlebox .subscribers .number:after {
+    content: " Seattleites";
+}
+
+.titlebox .users-online .number:after {
+    content: " Seattleites online";
+}
