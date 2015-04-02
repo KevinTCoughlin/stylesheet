@@ -1,0 +1,41 @@
+#header, .res-nightmode #header {
+    min-height: 200px !important; /*Tweak to give a nice height for image to be seen, be conservative*/
+    background: #101213 url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
+    background-size: 100% auto !important;
+}
+
+.titlebox .subscribers .number:after {
+    content: " Seattleites";
+}
+
+.titlebox .users-online .number:after {
+    content: " Seattleites online";
+}
+
+.sidebox.submit div.morelink a:hover:before,
+.arrow.down:hover:before {
+    background-color: #fef0f0;
+    border-top: 1px solid #ff9185;
+    bottom: 0;
+    color: red;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    left: 0;
+    line-height: 35px;
+    padding: 5px 0;
+    position: fixed;
+    text-align: center;
+    text-shadow:0 0px 0px #555;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sidebox.submit div.morelink a:hover:before {
+    content: "Please read the FAQ and RULES before submitting to /r/Seattle - thank you!";
+}
+
+.arrow.down:hover:before {
+    content:"Please downvote only comments & posts that do not add to the discussion. It is not an 'I disagree' button.";
+}
