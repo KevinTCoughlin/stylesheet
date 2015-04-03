@@ -2,6 +2,20 @@
     min-height: 200px !important; /*Tweak to give a nice height for image to be seen, be conservative*/
     background: #101213 url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
     background-size: 100% auto !important;
+    /* Reduce whitespace */
+    margin-bottom: 10px !important;
+}
+
+div.content {
+    margin-left: 10px !important;
+}
+
+.side {
+    margin-top: 4px !important;
+}
+
+.link .midcol {
+    margin: 10px 5px 0 !important;
 }
 
 .titlebox .subscribers .number:after {
