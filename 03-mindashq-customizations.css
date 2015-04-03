@@ -48,6 +48,11 @@ div.content {
     color: #fff !important;
 }
 
+.md {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
 .md .-blocks, .md .-lists, .md pre, .md blockquote, .md table, .md p, .md ul, .md ol {
     margin-top: 0.6em;
     margin-bottom: 0.6em;
