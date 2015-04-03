@@ -48,6 +48,12 @@ div.content {
     color: #fff !important;
 }
 
+.md .-blocks, .md .-lists, .md pre, .md blockquote, .md table, .md p, .md ul, .md ol {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    line-height: 1.4em !important;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
