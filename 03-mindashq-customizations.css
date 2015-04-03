@@ -14,6 +14,10 @@ div.content {
     margin: 0px !important;
 }
 
+.side .md p, .side .md ul, .side .md ol {
+    font-size: 11pt;
+}
+
 .link .midcol {
     margin: 10px 5px 0 !important;
 }
