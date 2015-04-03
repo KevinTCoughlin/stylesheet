@@ -18,6 +18,15 @@ div.content {
     margin: 10px 5px 0 !important;
 }
 
+.usertext-edit, .usertext-edit textarea  {
+    width: 100% !important;
+}
+
+.comment-visits-box {
+    max-width: 100% !important; /* needed to override */
+    width: 97% !important;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
