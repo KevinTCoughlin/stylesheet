@@ -34,11 +34,18 @@ div.content {
 .entry.RES-keyNav-activeElement .flat-list li a,
 .entry.RES-keyNav-activeElement .flat-list .redditSingleClick,
 .noncollapsed > .flat-list li a {
-	color: #777 !important;
+    color: #777 !important;
 }
 
 .entry .flat-list li a.comments {
-	color: #144ddd !important;
+    color: #144ddd !important;
+}
+
+.entry .flat-list li a[onclick*="reply"] {
+    border-color: #357ae8 !important;
+    background-color: #5ba2fd !important;
+    background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
+    color: #fff !important;
 }
 
 .titlebox .subscribers .number:after {
