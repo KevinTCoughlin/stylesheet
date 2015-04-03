@@ -53,8 +53,8 @@ div.content {
 }
 
 .md {
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: 98% !important;
+    width: 98% !important;
 }
 
 .md .-blocks, .md .-lists, .md pre, .md blockquote, .md table, .md p, .md ul, .md ol {
