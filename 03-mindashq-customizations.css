@@ -37,6 +37,10 @@ div.content {
 	color: #777 !important;
 }
 
+.entry .flat-list li a.comments {
+	color: #144ddd !important;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
