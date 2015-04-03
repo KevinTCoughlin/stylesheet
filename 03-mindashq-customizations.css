@@ -27,6 +27,16 @@ div.content {
     width: 97% !important;
 }
 
+.entry > .flat-list li a,
+.entry > .flat-list .redditSingleClick,
+.entry > .flat-list li a,
+.entry > .flat-list .redditSingleClick,
+.entry.RES-keyNav-activeElement .flat-list li a,
+.entry.RES-keyNav-activeElement .flat-list .redditSingleClick,
+.noncollapsed > .flat-list li a {
+	color: #777 !important;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
