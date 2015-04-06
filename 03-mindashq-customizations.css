@@ -66,8 +66,7 @@ div.content {
 .side .md > blockquote a del {
     float: right;
     font-size: 12px;
-    position: relative;
-    top: 12px;
+    text-decoration: none;
 }
 
 .side .md > hr + h2 {
