@@ -1294,10 +1294,12 @@ ul.tabmenu.formtab {
     }
 
 /*--  A.6.3. Compact deleted messages/comments -- */
+/* /r/Seattle modification */
+/*
 .deleted.comment .usertext,
 .deleted.comment ul.buttons {
     display: none;
-}
+}*/
 
 /* ~~  A.7. Spam highlighting ~~~~~ */
 div.thing.suspicious {
