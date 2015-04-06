@@ -270,14 +270,13 @@ a[href='/s'] {
     cursor: pointer;
 }
 
-/* /r/Seattle modification */
-/*.entry:hover ul.flat-list li a[onclick*='reply'],
+.entry:hover ul.flat-list li a[onclick*='reply'],
 .entry.RES-keyNav-activeElement ul.flat-list li a[onclick*='reply'] {
     border-color: #357ae8 !important;
     background-color: #5ba2fd;
     background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
     color: #fff !important;
-}*/
+}
 
 .btn,
 .button,
@@ -901,29 +900,29 @@ ul.tabmenu.formtab {
     }
 
     .expando-button.selftext.collapsed:before {
-        content: '.';
+        content: '✚';
     }
 
     .expando-button.selftext.expanded:before {
-        content: '..';
+        content: '▪▪';
     }
 
     .expando-button.video.collapsed:before,
     .expando-button.video-muted.collapsed:before {
-        content: '.';
+        content: '▶';
     }
 
     .expando-button.video.expanded:before,
     .expando-button.video-muted.expanded::before {
-        content: '.';
+        content: '●';
     }
 
     .expando-button.image.collapsedExpando:before {
-        content: '.';
+        content: '❏';
     }
 
     .expando-button.image.expanded:before {
-        content: '.';
+        content: '❐';
     }
 
     .expando-button:hover:before {
@@ -1108,12 +1107,12 @@ ul.tabmenu.formtab {
 
 .arrow.up:after,
 .arrow.upmod:after {
-    content: '.';
+    content: '▲';
 }
 
 .arrow.down:after,
 .arrow.downmod:after {
-    content: '.';
+    content: '▼';
 }
 
 .arrow.upmod:after {
@@ -2256,67 +2255,67 @@ div#NERFail,
     }
 
 .side a[href*='#icon-exclamation']:before {
-    content: '.';
+    content: '♔';
 }
 
 .side a[href*='#icon-information']:before {
-    content: '.';
+    content: 'ⓘ';
 }
 
 .side a[href*='#icon-lightbulb']:before {
-    content: '.';
+    content: '☼';
 }
 
 .side a[href*='#icon-comments']:before {
-    content: '.';
+    content: '❝';
 }
 
 .side a[href*='#icon-unhappy']:before {
-    content: '.';
+    content: '☹';
 }
 
 .side a[href*='#icon-check']:before {
-    content: '.';
+    content: '✓';
 }
 
 .side a[href*='#icon-clock']:before {
-    content: '.';
+    content: '◔';
 }
 
 .side a[href*='#icon-cross']:before {
-    content: '.';
+    content: '⊘';
 }
 
 .side a[href*='#icon-smile']:before {
-    content: '.';
+    content: '☺';
 }
 
 .side a[href*='#icon-error']:before {
-    content: '.';
+    content: '☢';
 }
 
 .side a[href*='#icon-note']:before {
-    content: '.';
+    content: '✑';
 }
 
 .side a[href*='#icon-star']:before {
-    content: '.';
+    content: '✰';
 }
 
 .side a[href*='#icon-help']:before {
-    content: '.';
+    content: '✍';
 }
 
 .side a[href*='#icon-time']:before {
-    content: '.';
+    content: '⌚';
 }
 
 .side a[href*='#icon-bell']:before {
-    content: '.';
+    content: '❂';
 }
 
 .side a[href*='#icon-eye']:before {
-    content: '.';
+    content: '✿';
 }
 
 /* ~~  A.13. Vibgyor Flairs ~~~~~ */
