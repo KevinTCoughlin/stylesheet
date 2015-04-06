@@ -2,7 +2,6 @@
     min-height: 150px !important; /*Tweak to give a nice height for image to be seen, be conservative*/
     background: #8FAAC7 url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
     background-size: auto 100% !important;
-    /* Reduce whitespace */
     margin-bottom: 10px !important;
 }
 
@@ -51,7 +50,7 @@ div.content {
     background-color: #5ba2fd;
     background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
     color: #fff !important;
-}*/
+}
 
 .md {
     max-width: 98% !important;
@@ -62,6 +61,13 @@ div.content {
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     line-height: 1.4em !important;
+}
+
+.side .md > blockquote a sup {
+    float: right;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
 }
 
 .titlebox .subscribers .number:after {
