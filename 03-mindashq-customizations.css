@@ -63,7 +63,7 @@ div.content {
     line-height: 1.4em !important;
 }
 
-.side .md > blockquote a sup {
+.side .md > blockquote a del {
     float: right;
     font-size: 12px;
     position: relative;
