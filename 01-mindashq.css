@@ -270,6 +270,8 @@ a[href='/s'] {
     cursor: pointer;
 }
 
+/* /r/Seattle modification */
+/*
 .entry:hover ul.flat-list li a[onclick*='reply'],
 .entry.RES-keyNav-activeElement ul.flat-list li a[onclick*='reply'] {
     border-color: #357ae8 !important;
@@ -277,6 +279,7 @@ a[href='/s'] {
     background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
     color: #fff !important;
 }
+*/
 
 .btn,
 .button,
