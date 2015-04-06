@@ -76,16 +76,13 @@
     Details : http://www.reddit.com/r/mindashq/wiki/modules/collapsibleboxes
 ----*/
 
-/*  Enlist blocks to be seen uncollapsed  */
-.side .md > blockquote:nth-of-type(1) > *,
-.side .md > blockquote:nth-of-type(2) > *,
-.side .md > blockquote:nth-of-type(3) > * {
+/* Expand all boxes by default  */
+.side .md > blockquote > * {
     display: block;
 }
 
-/* Collapsing all boxes by default  */
-
-.side .md > blockquote > * {
+/*  Enlist blocks to be seen collapsed  */
+.side .md > blockquote:nth-of-type(4) > * {
     display: none;
 }
 
@@ -96,7 +93,7 @@
 .side .md > blockquote > h4,
 .side .md > blockquote > h5,
 .side .md > blockquote > h6 {
-    display: block;
+    display: block !important;
     cursor: pointer;
 }
 
