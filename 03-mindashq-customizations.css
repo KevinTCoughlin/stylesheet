@@ -70,6 +70,17 @@ div.content {
     top: 12px;
 }
 
+.side .md > hr + h2 {
+    color: #888;
+    font-size: 13px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.side .md > hr + h2 + blockquote {
+    margin-top: 0px;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
