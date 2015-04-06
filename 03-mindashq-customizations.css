@@ -45,12 +45,13 @@ div.content {
     color: #144ddd !important;
 }
 
-.entry .flat-list li a[onclick*="reply"] {
+.entry ul.flat-list li a[onclick*='reply']:hover,
+.entry.RES-keyNav-activeElement ul.flat-list li a[onclick*='reply'] {
     border-color: #357ae8 !important;
-    background-color: #5ba2fd !important;
+    background-color: #5ba2fd;
     background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
     color: #fff !important;
-}
+}*/
 
 .md {
     max-width: 98% !important;
