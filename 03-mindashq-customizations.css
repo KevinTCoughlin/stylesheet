@@ -80,6 +80,10 @@ div.content {
     margin-top: 0px;
 }
 
+.thumbnail.self, .thumbnail.default {
+    display: block !important;
+}
+
 .titlebox .subscribers .number:after {
     content: " Seattleites";
 }
