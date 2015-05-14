@@ -1,0 +1,29 @@
+@media screen and (max-width: 1050px) {
+	body { 
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content { 
+		order: 1;
+	}
+
+	.side {
+		order: 2; width: inherit !important;
+	}
+	 
+	.side * { 
+		width: inherit !important;
+	}
+  
+	.side .spacer {
+	}
+  
+	.footer-parent {
+		order: 3;
+	}
+  
+	.debuginfo {
+		order: 4;
+	}
+}
