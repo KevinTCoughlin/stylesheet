@@ -11,6 +11,11 @@
 	.side {
 		order: 2; width: inherit !important;
 	}
+	
+	.side div.sidebox.create {
+		bottom: 126px;
+		width: 230px !important;
+	}
 	 
 	.side * { 
 		width: inherit !important;
