@@ -435,14 +435,14 @@ a[href*='#btn'] {
 /*--  A.2.1. Top Sr-Bar -- */
 #sr-header-area {
     padding: 0 0 0 5px;
-    height: 20px;
+    height: 17px;
     border-color: #fff;
     background-color: #fff;
     color: #acd9fc;
     color: #555;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 18px;
     opacity: .4;
 }
 
@@ -502,7 +502,7 @@ div#RESSubredditGroupDropdown {
     border: 1px solid #acd9fc !important;
     background-color: #eaf4fc;
     color: #2154a3;
-    font-size: 12px;
+    font-size: 10px;
 }
 
     .drop-choices h2 {
