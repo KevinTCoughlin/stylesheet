@@ -1,6 +1,6 @@
 #header, .res-nightmode #header {
     min-height: 150px !important; /*Tweak to give a nice height for image to be seen, be conservative*/
-    background: #C5E3FD url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
+    background: #8E9CA5 url('%%headerImage%%') no-repeat scroll !important; /*Tweak as per requirements*/
     background-size: auto 100% !important;
     margin-bottom: 10px !important;
 }
