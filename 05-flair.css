@@ -1,3 +1,11 @@
+.flair-verified {
+    color: #327f00;
+}
+
+.flair-verified:before {
+    content: "✓: ";
+}
+
 .linkflair-Meetups .linkflairlabel {
     background-color: #add5ab;
     font-size: 11px;
