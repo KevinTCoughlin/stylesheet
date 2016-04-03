@@ -82,9 +82,9 @@
 }
 
 /*  Enlist blocks to be seen collapsed  */
-.side .md > blockquote:nth-of-type(4) > * {
+/*.side .md > blockquote:nth-of-type(4) > * {
     display: none;
-}
+}*/
 
 /* generic*/
 .side .md > blockquote > h1,
