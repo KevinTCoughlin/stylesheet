@@ -272,13 +272,14 @@ a[href='/s'] {
 	cursor: pointer;
 }
 
-.entry.RES-keyNav-activeElement ul.flat-list li a[onclick*=reply],
+/* /r/Seattle modification */
+/*.entry.RES-keyNav-activeElement ul.flat-list li a[onclick*=reply],
 .entry:hover ul.flat-list li a[onclick*=reply] {
 	border-color: #357ae8 !important;
 	background-color: #5ba2fd;
 	background-image: linear-gradient(#5ba2fd,#4b8adb) !important;
 	color: #fff !important;
-}
+}*/
 
 .BEFoot button,
 .btn,
@@ -1086,7 +1087,7 @@ ul.tabmenu.formtab {
 .link .title {
 	overflow: visible;
 	margin: 0 5px 5px 0;
-	font-size: 125%;
+	/*font-size: 125%;*/
 	line-height: 1.3;
 }
 
