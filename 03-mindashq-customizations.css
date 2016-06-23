@@ -25,6 +25,11 @@ div.content {
     width: 100% !important;
 }
 
+.usertext-body.usertext-grayed {
+    min-width: 66px !important;
+    opacity: 0.5;
+}
+
 .comment-visits-box {
     max-width: 100% !important; /* needed to override */
     width: 97% !important;
