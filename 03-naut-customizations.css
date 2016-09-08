@@ -1,3 +1,6 @@
+/* Adjust for smaller header size */
+#header { height: 108px !important; }
+
 /* Moved "Host", "New", "Rising", etc right of the title */
 #header-bottom-left > * { float: left; }
 #header-bottom-left .tabmenu { margin: 5px 0 0 30px; }
