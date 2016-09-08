@@ -1,0 +1,6 @@
+/* Moved "Host", "New", "Rising", etc right of the title */
+#header-bottom-left > * { float: left; }
+#header-bottom-left .tabmenu { margin: 5px 0 0 30px; }
+
+/* shift sidebar content down */
+.side { margin-top: 214px !important; }

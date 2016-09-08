@@ -1,0 +1,45 @@
+/* --- Addon: Somewhat Smaller Header --- */
+#header {height: 144px;}
+#header-bottom-left, body:not(.search-page) .side:before {top: 48px;}
+body:not(.search-page) .side .titlebox h1.redditname {top: 256px;}
+body:not(.search-page) .titlebox .fancy-toggle-button {top: 262px;}
+body:not(.search-page) .titlebox span.subscribers {top: 284px;}
+#search {top: 332px;}
+body:not(.search-page) .morelink {top: 390px;}
+.comments-page .side .linkinfo {top: 442px;}
+
+/* --- End Addon --- */
+
+/* --- Addon: Content Overlap Header --- */
+#header {
+    background-image: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#header .tabmenu:before{display: none;}
+body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
+#header .tabmenu li a, #header .tabmenu li.selected a {text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);}
+
+/* --- End Addon --- */
+
+/* --- Add-on: Remove the Sidebar Image --- */
+
+.side:before { display: none }
+.side .titlebox h1.redditname:before {border-radius: 2px}
+.side .titlebox h1.redditname { top:               calc(308px - 168px) !important }
+.titlebox .fancy-toggle-button { top:              calc(314px - 168px) !important }
+.titlebox span.subscribers { top:                  calc(336px - 168px) !important }
+#search { top:                                     calc(384px - 168px) !important }
+.morelink { top:                                   calc(442px - 168px) !important }
+.side { margin-top:                                calc(284px - 168px) !important }
+.comments-page .side .linkinfo { top:              calc(494px - 168px) !important }
+.comments-page .side { margin-top:                 calc(404px - 168px) !important }
+.search-page .side .titlebox h1.redditname { top:  calc(268px - 168px) !important }
+.search-page .titlebox .fancy-toggle-button { top: calc(274px - 168px) !important }
+.search-page .titlebox span.subscribers { top:     calc(296px - 168px) !important }
+.search-page .morelink { top:                      calc(350px - 168px) !important }
+.search-page .side {  margin-top:                  calc(234px - 168px) !important }
+.res .comments-page .side{margin-top:334px}
+
+/* --- End Addon --- */
