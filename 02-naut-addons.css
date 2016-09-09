@@ -45,11 +45,11 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 
 /* -- Add-on: Vertical Submit Buttons -- */
 .morelink { width: 320px; }
-.submit-link .morelink { top: 274px; }
+.submit-link .morelink { top: 274px !important; }
 .submit-text .morelink { top: 325px; margin-left: 0px !important;}
 .side { margin-top: 252px; }
 .comments-page .submit-link .morelink { top: 394px; }
 .comments-page .submit-text .morelink { top: 445px; margin-left: 0px !important;}
-.comments-page .side { margin-top: 215px; }
+.comments-page .side { margin-top: 368px; }
 
 /* -- End Addon -- */
