@@ -45,6 +45,7 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 .morelink { width: 320px; }
 .submit-link .morelink { top: 274px }
 .submit-text .morelink { top: 325px; margin-left: 0px !important;}
+.submit.disabled .morelink { top: 395px; }
 .side { margin-top: 252px; }
 .comments-page .submit-link .morelink { top: 394px; }
 .comments-page .submit-text .morelink { top: 445px; margin-left: 0px !important;}
