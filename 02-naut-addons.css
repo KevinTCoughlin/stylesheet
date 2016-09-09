@@ -6,6 +6,7 @@ body:not(.search-page) .titlebox .fancy-toggle-button {top: 262px;}
 body:not(.search-page) .titlebox span.subscribers {top: 284px;}
 #search {top: 332px;}
 body:not(.search-page) .morelink {top: 390px;}
+body:not(.search-page) .submit-text .morelink { top: 441px; }
 .comments-page .side .linkinfo {top: 442px;}
 
 /* --- End Addon --- */
@@ -45,9 +46,8 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 /* --- End Addon --- */
 
 /* -- Add-on: Vertical Submit Buttons -- */
-.submit-link .morelink { width: 320px; }
-body:not(.search-page) .morelink { top: 272px }
-.submit-text .morelink { width: 320px; top: 272px !important; margin-left: 0px !important;}
+.morelink { width: 320px; }
+.submit-text .morelink { top: px !important; margin-left: 0px !important;}
 .side { margin-top: 215px; }
 
 /* -- End Addon -- */
