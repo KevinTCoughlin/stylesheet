@@ -33,9 +33,7 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 .titlebox span.subscribers { top:                  calc(336px - 168px) !important }
 #search { top:                                     calc(384px - 168px) !important }
 .morelink { top:                                   calc(442px - 168px) }
-.side { margin-top:                                calc(284px - 168px) }
 .comments-page .side .linkinfo { top:              calc(444px - 168px) }
-.comments-page .side { margin-top:                 calc(537px - 168px) }
 .search-page .side .titlebox h1.redditname { top:  calc(268px - 168px) !important }
 .search-page .titlebox .fancy-toggle-button { top: calc(274px - 168px) !important }
 .search-page .titlebox span.subscribers { top:     calc(296px - 168px) !important }
@@ -47,8 +45,11 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 
 /* -- Add-on: Vertical Submit Buttons -- */
 .morelink { width: 320px; }
-.submit-link .morelink { top: 394px; }
-.submit-text .morelink { top: 445px; margin-left: 0px !important;}
-.side { margin-top: 215px; }
+.submit-link .morelink { top: 274px; }
+.submit-text .morelink { top: 325px; margin-left: 0px !important;}
+.side { margin-top: 252px; }
+.comments-page .submit-link .morelink { top: 394px; }
+.comments-page .submit-text .morelink { top: 445px; margin-left: 0px !important;}
+.comments-page .side { margin-top: 215px; }
 
 /* -- End Addon -- */
