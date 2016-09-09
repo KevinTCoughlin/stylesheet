@@ -5,7 +5,7 @@ body:not(.search-page) .side .titlebox h1.redditname {top: 256px;}
 body:not(.search-page) .titlebox .fancy-toggle-button {top: 262px;}
 body:not(.search-page) .titlebox span.subscribers {top: 284px;}
 #search {top: 332px;}
-body:not(.search-page) .morelink {top: 390px;}
+body:not(.search-page) .morelink {top: 394px; }
 body:not(.search-page) .submit-text .morelink { top: 441px; }
 .comments-page .side .linkinfo {top: 442px;}
 
@@ -47,7 +47,8 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 
 /* -- Add-on: Vertical Submit Buttons -- */
 .morelink { width: 320px; }
-.submit-text .morelink { top: px !important; margin-left: 0px !important;}
+.submit-link .morelink { top: 394px; }
+.submit-text .morelink { top: 445px; margin-left: 0px !important;}
 .side { margin-top: 215px; }
 
 /* -- End Addon -- */
