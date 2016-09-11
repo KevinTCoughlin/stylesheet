@@ -5,9 +5,40 @@
 #header-bottom-left > * { float: left; }
 #header-bottom-left .tabmenu { margin: 5px 0 0 30px; }
 
+/** misc sidebar positioning */
 .sidebox.create .morelink { top: 0px !important; }
-
 .commentarea { padding-top: 5px; }
+
+/** submit button hover **/
+.submit-link .morelink:after, .submit-text .morelink:after {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    margin: -36px -20px 0 0;
+    padding: 12px;
+    background-color: #EA4848;
+    border: none;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0);
+    content: "Please remember to read the FAQ and rules. Thank you!";
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: normal;
+    font-size: 13px;
+    transition: all 0.25s ease;
+    pointer-events: none;
+    right: 320px;
+    width: 300px;
+}
+
+.submit-link .morelink:hover:after, .submit-text .morelink:hover:after {
+    visibility: visible !important;
+    background-color: #EA4848 !important;
+    color: #FFF !important;
+    margin: -36px 10px 0 0 !important;
+}
 
 /** footer **/
 .footer-parent {  background: none; height: 0px; margin-top: 0px; padding-top: 0px; }
