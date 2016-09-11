@@ -11,26 +11,26 @@
 
 /** submit button hover **/
 .submit-link .morelink:after, .submit-text .morelink:after {
-    display: block;
-    visibility: hidden;
-    position: absolute;
-    z-index: 1000;
-    margin: -36px -20px 0 0;
-    padding: 12px;
-    background-color: #EA4848;
-    border: none;
-    border-radius: 2px;
-    color: rgba(255, 255, 255, 0);
-    content: "Please remember to read the FAQ and rules. Thank you!";
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 20px;
-    font-weight: normal;
-    font-size: 13px;
-    transition: all 0.25s ease;
-    pointer-events: none;
-    right: 320px;
-    width: 300px;
+    display: block !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    z-index: 1000 !important;
+    margin: -36px -20px 0 0 !important;
+    padding: 12px !important;
+    background-color: #EA4848 !important;
+    border: none !important;
+    border-radius: 2px !important;
+    color: rgba(255, 255, 255, 0) !important;
+    content: "Please remember to read the FAQ and rules. Thank you!" !important;
+    text-align: center !important;
+    letter-spacing: 1px !important;
+    line-height: 20px !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    transition: all 0.25s ease !important;
+    pointer-events: none !important;
+    right: 320px !important;
+    width: 300px !important;
 }
 
 .submit-link .morelink:hover:after, .submit-text .morelink:hover:after {
