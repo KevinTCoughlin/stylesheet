@@ -10,6 +10,17 @@
 .commentarea { padding-top: 5px; }
 
 /** submit button hover **/
+/* override naut settings */
+.submit-text .morelink:before, .submit-link .morelink:before {
+    content: "" !important;
+}
+
+.submit-link .morelink:after {
+    left: -310px !important;
+    top: 36px !important;
+    margin-left: 36px !important;
+}
+
 .submit-link .morelink:after, .submit-text .morelink:after {
     display: block !important;
     visibility: hidden !important;
