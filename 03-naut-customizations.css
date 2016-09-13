@@ -1,3 +1,6 @@
+/* Promoted post thumbnail fix */
+.link.promotedlink.promoted .thumbnail{padding-top:35px;margin-bottom:-35px}
+
 /* Adjust for smaller header size */
 #header { height: 108px !important; }
 
