@@ -16,7 +16,7 @@
 }
 
 .submit-link .morelink:after {
-    left: -310px !important;
+    left: unset !important;
     top: 36px !important;
     margin-left: 36px !important;
 }
