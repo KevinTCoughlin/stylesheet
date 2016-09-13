@@ -42,6 +42,7 @@
     pointer-events: none !important;
     right: 320px !important;
     width: 300px !important;
+    opacity: 0;
 }
 
 .submit-link .morelink:hover:after, .submit-text .morelink:hover:after {
@@ -49,6 +50,7 @@
     background-color: #EA4848 !important;
     color: #FFF !important;
     margin: -36px 10px 0 0 !important;
+    opacity: 1;
 }
 
 /** footer **/
