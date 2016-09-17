@@ -1,6 +1,6 @@
 /* --- Addon: Somewhat Smaller Header --- */
 #header {height: 144px;}
-#header-bottom-left, body:not(.search-page) .side:before {top: 48px;}
+#header-bottom-left, body:not(.search-page) .side:before {top: 60px;}
 body:not(.search-page) .side .titlebox h1.redditname {top: 256px;}
 body:not(.search-page) .titlebox .fancy-toggle-button {top: 262px;}
 body:not(.search-page) .titlebox span.subscribers {top: 284px;}
@@ -26,17 +26,17 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 
 .side:before { display: none }
 .side .titlebox h1.redditname:before {border-radius: 2px}
-.side .titlebox h1.redditname { top:               calc(308px - 168px) !important }
-.titlebox .fancy-toggle-button { top:              calc(314px - 168px) !important }
-.titlebox span.subscribers { top:                  calc(336px - 168px) !important }
-#search { top:                                     calc(384px - 168px) !important }
-.morelink { top:                                   calc(442px - 168px) }
-.comments-page .side .linkinfo { top:              calc(444px - 168px) }
-.search-page .side .titlebox h1.redditname { top:  calc(268px - 168px) !important }
-.search-page .titlebox .fancy-toggle-button { top: calc(274px - 168px) !important }
-.search-page .titlebox span.subscribers { top:     calc(296px - 168px) !important }
-.search-page .morelink { top:                      calc(350px - 168px) !important }
-.search-page .side {  margin-top:                  calc(234px - 168px) !important }
+.side .titlebox h1.redditname { top:               calc(308px - 152px) !important }
+.titlebox .fancy-toggle-button { top:              calc(314px - 152px) !important }
+.titlebox span.subscribers { top:                  calc(336px - 152px) !important }
+#search { top:                                     calc(384px - 152px) !important }
+.morelink { top:                                   calc(442px - 152px) }
+.comments-page .side .linkinfo { top:              calc(444px - 152px) }
+.search-page .side .titlebox h1.redditname { top:  calc(268px - 152px) !important }
+.search-page .titlebox .fancy-toggle-button { top: calc(274px - 152px) !important }
+.search-page .titlebox span.subscribers { top:     calc(296px - 152px) !important }
+.search-page .morelink { top:                      calc(350px - 152px) !important }
+.search-page .side {  margin-top:                  calc(234px - 152px) !important }
 .res .comments-page .side{margin-top:334px}
 
 /* --- End Addon --- */

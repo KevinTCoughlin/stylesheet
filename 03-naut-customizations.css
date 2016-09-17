@@ -1,6 +1,15 @@
 /* Promoted post thumbnail fix */
 .link.promotedlink.promoted .thumbnail{padding-top:35px;margin-bottom:-35px}
 
+/* lower the header overlap */
+body > .content {
+    margin-top: 32px;
+}
+
+body.comments-page > .content {
+    margin-top: 24px;
+}
+
 /* Adjust for smaller header size */
 #header { height: 108px !important; }
 
