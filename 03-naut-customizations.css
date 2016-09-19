@@ -13,6 +13,18 @@ body.comments-page > .content {
 /* center link beneath "Moving Here or Visiting?"  */
 .side .usertext-body .md h3:first-of-type+p { text-align: center; margin-top: -1em; margin-bottom: 1.5em}
 
+/* verified flair */
+.flair-verified {
+    background-color: #27b062;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 1px;
+}
+
+.flair-verified:before {
+    content: ". Verified:";
+}
+
 /* Adjust for smaller header size */
 #header { height: 108px !important; }
 
