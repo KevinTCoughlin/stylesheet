@@ -22,7 +22,7 @@ body.comments-page > .content {
 }
 
 .flair-verified:before {
-    content: ". Verified:";
+    content: "✓ Verified:";
 }
 
 /* Adjust for smaller header size */
