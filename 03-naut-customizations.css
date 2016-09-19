@@ -1,0 +1,95 @@
+/* Promoted post thumbnail fix */
+.link.promotedlink.promoted .thumbnail{padding-top:35px;margin-bottom:-35px}
+
+/* lower the header overlap */
+body > .content {
+    margin-top: 32px;
+}
+
+body.comments-page > .content {
+    margin-top: 24px;
+}
+
+/* center link beneath "Moving Here or Visiting?"  */
+.side .usertext-body .md h3:first-of-type+p { text-align: center; margin-top: -1em; margin-bottom: 1.5em}
+
+/* Adjust for smaller header size */
+#header { height: 108px !important; }
+
+/* Moved "Host", "New", "Rising", etc right of the title */
+#header-bottom-left > * { float: left; }
+#header-bottom-left .tabmenu { margin: 5px 0 0 30px; }
+
+/** misc sidebar positioning */
+.sidebox.create .morelink { top: 0px !important; }
+.commentarea { padding-top: 5px; }
+
+/** submit button hover **/
+/* override naut settings */
+.submit-text .morelink:before, .submit-link .morelink:before {
+    content: "" !important;
+}
+
+.submit-link .morelink:after {
+    left: unset !important;
+    top: 36px !important;
+    margin-left: 36px !important;
+}
+
+.submit-link .morelink:after, .submit-text .morelink:after {
+    display: block !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    z-index: 1000 !important;
+    margin: -36px -20px 0 0 !important;
+    padding: 12px !important;
+    background-color: #EA4848 !important;
+    border: none !important;
+    border-radius: 2px !important;
+    color: rgba(255, 255, 255, 0) !important;
+    content: "Please remember to read the FAQ and rules. Thank you!" !important;
+    text-align: center !important;
+    letter-spacing: 1px !important;
+    line-height: 20px !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    transition: all 0.25s ease !important;
+    pointer-events: none !important;
+    right: 320px !important;
+    width: 300px !important;
+    opacity: 0;
+}
+
+.submit-link .morelink:hover:after, .submit-text .morelink:hover:after {
+    visibility: visible !important;
+    background-color: #EA4848 !important;
+    color: #FFF !important;
+    margin: -36px 10px 0 0 !important;
+    opacity: 1;
+}
+
+/** footer **/
+.footer-parent {  background: none; height: 0px; margin-top: 0px; padding-top: 0px; }
+.footer-parent .footer {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+.footer-parent .footer .flat-vert .title {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292f34;
+    font-family: verdana,arial,helvetica,sans-serif;
+}
+
+.bottommenu, .bottommenu a {
+    color: gray;
+}
+
+div#images:before { content: ""; background: none; }
+
+.side:after {
+    content: "This subreddit uses a modified version of the /r/Naut theme."
+}
