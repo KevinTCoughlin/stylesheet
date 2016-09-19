@@ -31,7 +31,7 @@ body {background: #eee url(%%headerimg%%) no-repeat 50% 0%;}
 .titlebox span.subscribers { top:                  calc(336px - 152px) !important }
 #search { top:                                     calc(384px - 161px) !important }
 .morelink { top:                                   calc(442px - 152px) }
-.comments-page .side .linkinfo { top:              calc(444px - 152px) }
+.comments-page .side .linkinfo { top:              calc(444px - 170px) }
 .search-page .side .titlebox h1.redditname { top:  calc(268px - 152px) !important }
 .search-page .titlebox .fancy-toggle-button { top: calc(274px - 152px) !important }
 .search-page .titlebox span.subscribers { top:     calc(296px - 152px) !important }
